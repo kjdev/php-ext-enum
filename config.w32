@@ -1,0 +1,5 @@
+ARG_ENABLE("enum", "enable enum support", "no");
+
+if (PHP_SKEL != "no") {
+   EXTENSION("enum", "enum.c");
+}
